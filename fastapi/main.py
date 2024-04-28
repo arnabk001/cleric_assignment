@@ -22,7 +22,7 @@ def fetch_and_concatenate_texts(urls):
 
 # define openai call for text processing
 def extract_facts(text, question):
-    openai_key = 'sk-proj-3vKve0jUZxwjBEtrSxJtT3BlbkFJzX0dHiq8qKGHlvIqqVGu'
+    openai_key = 'YOUR-API-KEY'
     client = OpenAI(api_key=openai_key)
 
     system_msg = """you are an expert in information extraction from call logs and present a final list of facts to answer the user query \n
