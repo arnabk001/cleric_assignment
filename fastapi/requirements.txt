@@ -1,0 +1,6 @@
+fastapi==0.110.0
+uvicorn
+typing
+pydantic==2.7.1
+requests==2.31.0
+openai==1.14.0
